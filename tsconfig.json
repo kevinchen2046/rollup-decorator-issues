@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "noEmitHelpers": true,
+    "sourceMap": false,
+
+    "experimentalDecorators":true,
+    "outDir": "bin"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

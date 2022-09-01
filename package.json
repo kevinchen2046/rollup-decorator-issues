@@ -1,0 +1,20 @@
+{
+  "name": "rollup-decorator-issues",
+  "version": "1.0.0",
+  "description": "The modules that contain decorators but are not imported is ignored . because it does not pass static analysis?",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup bin/Main.js --format cjs --name 'myBundle' --file bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinchen2046/rollup-decorator-issues.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinchen2046/rollup-decorator-issues/issues"
+  },
+  "homepage": "https://github.com/kevinchen2046/rollup-decorator-issues#readme"
+}
